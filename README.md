@@ -4,7 +4,7 @@
 **Purchase a License @ https://discord.gg/zh6ng942TZ**
 
 ```bash
-   getgenv().Tycoon = {
+getgenv().Tycoon = {
     ["Excluded Cannons"] = {        
         "Cannon_4", -- Lightning Cannon
         "Cannon_5", -- Nuclear Cannon
